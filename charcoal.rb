@@ -9,7 +9,7 @@ class Charcoal < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.0/gt-macos-arm64"
-      sha256 "093099af246f6bbe1b62b37ac142a8ff172f1b6980ee7e7d1df5482703176835"
+      sha256 "1161de182024a47a46d0335808331b2fa069d33aab2d15a4dbc34f20b0048aab"
       def install
         bin.install "gt-macos-arm64" => "gt"
       end
