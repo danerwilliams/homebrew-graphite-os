@@ -8,14 +8,14 @@ class Charcoal < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-macos-arm64"
-      sha256 "6f0887b81c8c3c66185b153845ecf7ad636fd9baaab860765588136725921304"
+      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.2/gt-macos-arm64"
+      sha256 "01d187cbd28cb5ae6d7fba9be2d5f70b31a8319155d68435c70eee19f2fb3b44"
       def install
         bin.install "gt-macos-arm64" => "gt"
       end
     else
-      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-macos-x64"
-      sha256 "44a88531ea0826b897736e4fc8f3a3bfddff35f547d10c2aaf4e059da25346fa"
+      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.2/gt-macos-x64"
+      sha256 "bb9d6b404423853bea4de2d40714d3c7eddc1eba1948c5fb17e7e64075ce5f4b"
       def install
         bin.install "gt-macos-x64" => "gt"
       end
@@ -23,8 +23,8 @@ class Charcoal < Formula
   end
 
   if OS.linux?
-    url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-linux"
-    sha256 "0cc5337a4781f6d744d677f8a509cd882b53faf744dcd89dc7bc387990a3e121"
+    url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.2/gt-linux"
+    sha256 "e46064fb5f555f595a24ec6d49f299ea1c32531516a72b5da70f024b603e245e"
     def install
       bin.install "gt-linux" => "gt"
     end  
