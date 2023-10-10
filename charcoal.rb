@@ -1,21 +1,21 @@
 class Charcoal < Formula
   desc "Charcoal allows you to easily manage your stacked-diff workflow."
   homepage "https://github.com/danerwilliams/charcoal"
-  version "0.2.0"
+  version "0.2.1"
   license "apgl-3.0"
 
   depends_on "gh" => ">= 2.0.0"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.0/gt-macos-arm64"
-      sha256 "1161de182024a47a46d0335808331b2fa069d33aab2d15a4dbc34f20b0048aab"
+      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-macos-arm64"
+      sha256 "6f0887b81c8c3c66185b153845ecf7ad636fd9baaab860765588136725921304"
       def install
         bin.install "gt-macos-arm64" => "gt"
       end
     else
-      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.0/gt-macos-x64"
-      sha256 "4ae16c724436a497b4661af2a2f1785f7d705259f142c8881f0025f0ff1f5a88"
+      url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-macos-x64"
+      sha256 "44a88531ea0826b897736e4fc8f3a3bfddff35f547d10c2aaf4e059da25346fa"
       def install
         bin.install "gt-macos-x64" => "gt"
       end
@@ -23,8 +23,8 @@ class Charcoal < Formula
   end
 
   if OS.linux?
-    url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.0/gt-linux"
-    sha256 "6e4063ccd9e6f6567f18fc96b066a1401ae229d80c03c5a5c5456ad0aa5ac4af"
+    url "https://github.com/danerwilliams/charcoal/releases/download/v0.2.1/gt-linux"
+    sha256 "0cc5337a4781f6d744d677f8a509cd882b53faf744dcd89dc7bc387990a3e121"
     def install
       bin.install "gt-linux" => "gt"
     end  
