@@ -1,7 +1,7 @@
 class Charcoal < Formula
   desc "Charcoal allows you to easily manage your stacked-diff workflow."
   homepage "https://github.com/danerwilliams/charcoal"
-  version "0.2.1"
+  version "0.2.3"
   license "apgl-3.0"
 
   depends_on "gh" => ">= 2.0.0"
